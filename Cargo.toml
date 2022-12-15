@@ -11,7 +11,7 @@ opentelemetry-otlp = { version = "0.11.0", features = ["grpc-sys", "trace"], opt
 otel-tests-macro = { path = "otel-tests-macro" }
 serde = { version = "1", features = ["derive"] }
 tokio = { version = "1", features = ["macros"] }
-toml = { version = "0.5.9", default-features = false }
+toml = { version = "0.5.10", default-features = false }
 tracing = "0.1"
 tracing-opentelemetry = "0.18.0"
 tracing-subscriber = { version = "0.3", default-features = false, features = ["fmt", "ansi", "env-filter", "local-time", "tracing-log", "json"] }
